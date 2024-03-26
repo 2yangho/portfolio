@@ -3,13 +3,13 @@
 
 > ## 목차
 
-1. 시계열 센서 데이터 이상탐지
+1. 시계열 센서 데이터 이상탐지 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#1-%EC%8B%9C%EA%B3%84%EC%97%B4-%EC%84%BC%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B4%EC%83%81%ED%83%90%EC%A7%80)]
    
    `제조 도메인의 이상탐지 모델 구축 과제를 딥러닝을 이용해 수행하였습니다. `
-3. 보험 관심고객군 예측
+3. 보험 관심고객군 예측 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#2-%EB%B3%B4%ED%97%98-%EA%B4%80%EC%8B%AC%EA%B3%A0%EA%B0%9D-%EC%98%88%EC%B8%A1)]
    
    `보험 도메인에서 고객 데이터를 활용한 EDA 및 Classification 머신러닝 모델 구축을 통해 보험 관심도 높은 특정 고객군을 추출하였습니다. `
-4. 이커머스 코호트 분석
+4. 이커머스 코호트 분석 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#3-%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EC%BD%94%ED%98%B8%ED%8A%B8-%EB%B6%84%EC%84%9D)]
    
    `이커머스 도메인에서 코호트 분석을 통해 고객그룹의 이탈률이 높아지는 시기를 파악하고 이에 대한 해결방안을 제안하였습니다. `
 5. 팀 프로젝트 A
@@ -78,7 +78,7 @@
 - classification 모델(RandomForest, lightGBM 등) 사용 경험, 모델 성능 향상을 위한 Feature Engineering
 - 대상 고객의 목표 가입률 및 고객수를 만족시키는 조건을 찾기 위한 고객 데이터 드릴다운 과정 
 ```
-
+[프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8B)
 ## **3. 이커머스 코호트 분석**
 ---
 
@@ -108,3 +108,4 @@
 - EDA 과정을 통해 새로운 인사이트를 얻음으로서, 매출 감소 문제 해결 방법으로서 기존과 다른 새로운 대안 제시
 - 코호트 분석을 통해 코호트 그룹의 공통적 이탈률 증가 시기 및 원인 파악  
 ```
+[프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8C)
