@@ -12,7 +12,7 @@
 3. 이커머스 코호트 분석 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#3-%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EC%BD%94%ED%98%B8%ED%8A%B8-%EB%B6%84%EC%84%9D)]
    
    `이커머스 도메인에서 코호트 분석을 통해 고객그룹의 이탈률이 높아지는 시기를 파악하고 이에 대한 해결방안을 제안하였습니다. `
-4. (팀 프로젝트 A) RFM 분석을 이용한 고객 Segmentation [[클릭]()]
+4. (팀 프로젝트 A) RFM 분석을 이용한 고객 Segmentation [[클릭](https://github.com/2yangho/portfolio/blob/main/README.md#4-rfm-%EB%B6%84%EC%84%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%A0%EA%B0%9D-segmentation-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)]
    
    `이커머스 도메인에서 RFM 분석을 통해 고객별 등급을 만들고, 특정 등급 고객의 특징을 파악해 고객 유형별 마케팅 방향을 제시했습니다. `
 5. 팀 프로젝트 B
