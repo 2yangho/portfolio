@@ -9,9 +9,9 @@
 2. 보험 관심고객군 예측 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#2-%EB%B3%B4%ED%97%98-%EA%B4%80%EC%8B%AC%EA%B3%A0%EA%B0%9D-%EC%98%88%EC%B8%A1)]
    
    `보험 도메인에서 고객 데이터를 활용한 EDA 및 Classification 머신러닝 모델 구축을 통해 보험 관심도 높은 특정 고객군을 추출하였습니다. `
-3. 이커머스 코호트 분석 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#3-%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EC%BD%94%ED%98%B8%ED%8A%B8-%EB%B6%84%EC%84%9D)]
+3. 통신사 VOC 분석 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#3-%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EC%BD%94%ED%98%B8%ED%8A%B8-%EB%B6%84%EC%84%9D)]
    
-   `이커머스 도메인에서 코호트 분석을 통해 고객그룹의 이탈률이 높아지는 시기를 파악하고 이에 대한 해결방안을 제안하였습니다. `
+   `통신사 도메인에서 VOC 분석을 통해 고객 불만사항들을 그룹화한 뒤 우선적으로 해결해야할 불만사항을 제시하였습니다. `
 4. (팀 프로젝트 A) RFM 분석을 이용한 고객 Segmentation [[클릭](https://github.com/2yangho/portfolio/blob/main/README.md#4-rfm-%EB%B6%84%EC%84%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%A0%EA%B0%9D-segmentation-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)]
    
    `이커머스 도메인에서 RFM 분석을 통해 고객별 등급을 만들고, 특정 등급 고객의 특징을 파악해 고객 유형별 마케팅 방향을 제시했습니다. `
@@ -79,34 +79,32 @@
 - 대상 고객의 목표 가입률 및 고객수를 만족시키는 조건을 찾기 위한 고객 데이터 드릴다운 과정 
 ```
 [프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8B)
-## **3. 이커머스 코호트 분석**
+## **3. 통신사 VOC 분석**
 ---
 
 > 문제정의
 
 ```
-- 고객들의 재구매율 저하로 인한 매출 감소
+- 고객 만족도 하락으로 인한 고객 이탈 위험 증가
 ```
 
 > 해결방안
 
 ```
-- 코호트 분석을 이용한 월별/코호트 인덱스별 재구매율 분석으로 이탈률 증가 시기 및 원인 파악
-- 재구매율이 상승했던 시기의 코호트 그룹의 특징을 파악해 이탈률 감소에 대한 해결방안으로 제시
+- VOC 분석을 통한 주요 고객 불만사항 파악
 ```
 
 > 기대효과
 
 ```
-- 고객 이탈 원인 파악을 통해 마케팅 전략 수정
-- 효과적인 마케팅 유형 파악 및 적용으로 고객 재구매율 증가
+- 주요 고객 불만사항 개선을 통해 서비스 만족도 증가, 고객 이탈 위험 감소
 ```
 
 > Lesson&Learned
 
 ```
-- EDA 과정을 통해 새로운 인사이트를 얻음으로서, 매출 감소 문제 해결 방법으로서 기존과 다른 새로운 대안 제시
-- 코호트 분석을 통해 코호트 그룹의 공통적 이탈률 증가 시기 및 원인 파악  
+- 자연어 처리를 통해 텍스트로들부터 주요 토픽 추출 방법을 알게 되므로써 핵심 문제 요인 파악  
+- VOC 분석으로 지역별, 날짜별, 해결상태별 핵심 문제 분포를 파악해 우선적으로 해결 요구되는 사안 확인   
 ```
 [프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8C)
 
