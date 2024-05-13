@@ -6,9 +6,9 @@
 1. 시계열 센서 데이터 이상탐지 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#1-%EC%8B%9C%EA%B3%84%EC%97%B4-%EC%84%BC%EC%84%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B4%EC%83%81%ED%83%90%EC%A7%80)]
    
    `제조 도메인의 이상탐지 모델 구축 과제를 딥러닝을 이용해 수행하였습니다. `
-2. 보험 관심고객군 예측 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#2-%EB%B3%B4%ED%97%98-%EA%B4%80%EC%8B%AC%EA%B3%A0%EA%B0%9D-%EC%98%88%EC%B8%A1)]
+2. 웹툰 컨텐츠 EDA [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#2-%EB%B3%B4%ED%97%98-%EA%B4%80%EC%8B%AC%EA%B3%A0%EA%B0%9D-%EC%98%88%EC%B8%A1)]
    
-   `보험 도메인에서 고객 데이터를 활용한 EDA 및 Classification 머신러닝 모델 구축을 통해 보험 관심도 높은 특정 고객군을 추출하였습니다. `
+   `컨텐츠 도메인에서 웹툰 데이터를 활용한 EDA를 통해 사용자 행동 패턴 및 선호 컨텐츠를 파악할 수 있었습니다. `
 3. 통신사 VOC 분석 [[클릭](https://github.com/2yangho/portfolio/tree/main?tab=readme-ov-file#3-%EC%9D%B4%EC%BB%A4%EB%A8%B8%EC%8A%A4-%EC%BD%94%ED%98%B8%ED%8A%B8-%EB%B6%84%EC%84%9D)]
    
    `통신사 도메인에서 VOC 분석을 통해 고객 불만사항들을 그룹화한 뒤 우선적으로 해결해야할 불만사항을 제시하였습니다. `
@@ -49,34 +49,35 @@
 - 데이터 불균형 문제를 해결할 대안으로서의 딥러닝 모델(AutoEncoder) 적용
 ```
 [프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8A)
-## **2. 보험 관심고객 예측**
+## **2. 웹툰 컨텐츠 EDA**
 ---
 
 > 문제정의
 
 ```
-- 보험사 신규 가입자수 증가율 둔화로 인한 수익 감소
+- 사용자 웹툰 선호도 및 행동 패턴에 대한 정보 부족
 ```
 
 > 해결방안
 
 ```
-- 고객 데이터로부터 classification 머신러닝 모델을 구축해 보험 상품에 관심있는 특정 고객군을 예측. 해당 고객을 대상으로 마케팅 진행 제안
-- 보험사의 목표 고객 응답률 또는 확보 고객수를 제안하고 이 조건에 맞는 고객 그룹 특성 추출
+- 정규 웹툰 데이터를 통해 인기 웹툰의 장르, 업데이트 요일별 분석
+- 베스트도전 웹툰 데이터를 통해 공식연재 결정 웹툰의 특징 분석
+- 웹툰 사용자의 선호 패턴 분석
 ```
 
 > 기대효과
 
 ```
-- 신규 가입자 수 증가로 수익 증대
-- 선별적 고객 대상 마케팅으로 홍보비 효율 개선
+- 사용자 행동 패턴 및 웹툰 선호도 파악을 통해 콘텐츠 맞춤 제공, 효율적인 웹툰 마케팅 전략으로 사용자 유입 증가
+- 베스트 도전 웹툰 데이터 분석을 통해 합리적인 비용으로 잠재 유망 작가 유치 
 ```
 
 > Lesson&Learned
 
 ```
-- classification 모델(RandomForest, lightGBM 등) 사용 경험, 모델 성능 향상을 위한 Feature Engineering
-- 대상 고객의 목표 가입률 및 고객수를 만족시키는 조건을 찾기 위한 고객 데이터 드릴다운 과정 
+- 심화된 EDA를 통해 연령별/인기작가별/연도별 선호 작품 장르 파악
+- 베스트 도전 웹툰/ 정규 웹툰 각 데이터셋으로부터 공통된 특징을 파악해 트렌드 이해
 ```
 [프로젝트 상세](https://github.com/2yangho/portfolio/tree/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8B)
 ## **3. 통신사 VOC 분석**
