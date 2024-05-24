@@ -15,7 +15,7 @@
 4. (팀 프로젝트 A) RFM 분석을 이용한 고객 Segmentation [[클릭](https://github.com/2yangho/portfolio/blob/main/README.md#4-rfm-%EB%B6%84%EC%84%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B3%A0%EA%B0%9D-segmentation-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)]
    
    `이커머스 도메인에서 RFM 분석을 통해 고객별 등급을 만들고, 특정 등급 고객의 특징을 파악해 고객 유형별 마케팅 방향을 제시했습니다. `
-5. (팀 프로젝트 B) 신용카드 고객 데이터를 활용한 고객 이탈 예측
+5. (팀 프로젝트 B) 신용카드 고객 데이터를 활용한 고객 이탈 예측[[클릭](https://github.com/2yangho/portfolio/blob/main/README.md#5-%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C-%EA%B3%A0%EA%B0%9D-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B3%A0%EA%B0%9D-%EC%9D%B4%ED%83%88-%EC%98%88%EC%B8%A1)]
     
    `금융(카드) 도메인에서 Classification 모델을 이용해 이탈 고객을 예측하고, 클러스터링을 이용해 이탈 위험 고객군을 분류하여 고객 특성에 맞는 이탈 방지 전략을 제안했습니다.`
 
